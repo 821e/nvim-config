@@ -7,7 +7,6 @@
 
 return {
   {
-<<<<<<< HEAD
     "ellisonleao/gruvbox.nvim",
     priority = 1000,
     lazy = false,
@@ -32,90 +31,8 @@ return {
         inverse = true,
         contrast = "",
         palette_overrides = {},
-        overrides = {},
-        dim_inactive = false,
-        transparent_mode = true,
       })
       vim.cmd("colorscheme gruvbox")
     end,
-  },
-  {
-=======
->>>>>>> origin/main
-    "Alexis12119/nightly.nvim",
-    lazy = true,
-  },
-  {
-    "arturgoms/moonbow.nvim"
-  },
-  {
-    "rose-pine/neovim",
-  },
-
-  {
-    "marko-cerovac/material.nvim",
-    lazy = true,
-    config = function()
-      vim.g.material_style = "deep ocean"
-    end,
-  },
-
-  {
-    "folke/tokyonight.nvim",
-    lazy = true,
-  },
-
-  {
-<<<<<<< HEAD
-=======
-    "ellisonleao/gruvbox.nvim",
-    lazy = true,
-  },
-
-  {
->>>>>>> origin/main
-    "catppuccin/nvim",
-    lazy = true,
-    name = "catppuccin",
-  },
-
-  {
-    "rebelot/kanagawa.nvim",
-    lazy = true,
-  },
-
-  {
-    "rmehri01/onenord.nvim",
-    lazy = true,
-  },
-
-  {
-    "Mofiqul/vscode.nvim",
-    lazy = true,
-  },
-
-  {
-    "navarasu/onedark.nvim",
-    lazy = true,
-  },
-
-  {
-    "tanvirtin/monokai.nvim",
-    lazy = true,
-  },
-
-  {
-    "Mofiqul/dracula.nvim",
-    lazy = true,
-  },
-
-  {
-    "JoosepAlviste/palenightfall.nvim",
-    lazy = true,
-  },
-
-  {
-    "bluz71/vim-nightfly-colors",
-    lazy = true,
   },
 }
