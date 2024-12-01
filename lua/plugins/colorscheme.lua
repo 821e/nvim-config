@@ -7,6 +7,7 @@
 
 return {
   {
+<<<<<<< HEAD
     "ellisonleao/gruvbox.nvim",
     priority = 1000,
     lazy = false,
@@ -39,6 +40,8 @@ return {
     end,
   },
   {
+=======
+>>>>>>> origin/main
     "Alexis12119/nightly.nvim",
     lazy = true,
   },
@@ -63,6 +66,14 @@ return {
   },
 
   {
+<<<<<<< HEAD
+=======
+    "ellisonleao/gruvbox.nvim",
+    lazy = true,
+  },
+
+  {
+>>>>>>> origin/main
     "catppuccin/nvim",
     lazy = true,
     name = "catppuccin",

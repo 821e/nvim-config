@@ -21,6 +21,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.opt.termguicolors = true
 
+<<<<<<< HEAD
 -- Function to make Neovim UI elements transparent
 local function make_transparent()
   -- Main editor area
@@ -49,12 +50,20 @@ local function make_transparent()
   vim.api.nvim_set_hl(0, "StatusLineNC", { bg = "NONE", ctermbg = "NONE" })
 end
 
+=======
+>>>>>>> origin/main
 -- Neovide font fix
 vim.opt.guifont = { "FiraCode Nerd Font:h7" }
 
 -- Lazy plugins
 require('lazy').setup('plugins')
 
+<<<<<<< HEAD
+=======
+-- Themes settings
+require('theme')
+
+>>>>>>> origin/main
 -- Options
 require('options.options')
 
@@ -63,8 +72,11 @@ require('keymaps.keymaps')
 
 -- Autocmds
 require('autocmds.autocmds')
+<<<<<<< HEAD
 
 -- Set colorscheme first
 vim.cmd("colorscheme gruvbox")
 -- Apply transparency after colorscheme to override its background settings
 make_transparent()
+=======
+>>>>>>> origin/main
