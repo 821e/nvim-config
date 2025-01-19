@@ -142,13 +142,7 @@ return {
       "<leader>l",
       name = "LSP",
       a = { ":Lspsaga code_action<cr>", "Code Action" },
-      g = { function() 
-        local lazygit
-        if not lazygit then
-          lazygit = require("toggleterm.terminal").Terminal:new({ cmd = "lazygit", direction = "float" })
-        end
-        lazygit:toggle()
-      end, "LazyGit" },
+      g = { ":Neogit<CR>", "Neogit" },
       i = { ":LspInstall<cr>", "Install" },
       I = { ":LspInfo<cr>", "Info" },
       o = { ":Lspsaga outline<cr>", "Outline" },
